@@ -1,0 +1,497 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CALIFORNIA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md fixed-top bg-white">
+    <div class="container-fluid align-items-center ps-5 pe-5">
+        <!-- Логотип (изображение) -->
+        <a class="navbar-brand" href="#">
+            <img src="navbar/california.png" alt="CALIFORNIA" style="height: 40px;">
+        </a>
+
+        <!-- Кнопка для мобильного меню (исправленная) -->
+        <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarContent" 
+                aria-controls="navbarContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Основное меню -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">ALL PRODUCTS</a>
+                </li>
+                <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" 
+                       role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        SOLUTIONS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">SUPPORT</a>
+                </li>
+            </ul>
+
+            <!-- Иконки поиска и корзины -->
+            <div class="d-flex align-items-center">
+                <a href="#" class="nav-link me-3">
+                    <img src="navbar/lupa.png" alt="Search" style="height: 30px;">
+                </a>
+                <a href="#" class="nav-link">
+                    <img src="navbar/korzina.png" alt="Cart" style="height: 30px;">
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+        <!-- iphoni -->
+
+        <div class="container my-5 pt-5">
+            <div class="iphone-block d-flex justify-content-between align-items-center p-4 pt-0">
+                <!-- Левая стрелка -->
+                <button class="btn p-0 border-0 bg-transparent">
+                    <img src="iphoni/levo.png" alt="" class="phone-arrows">
+                </button>
+
+                <div class="flex-grow-1 mx-4">
+                    <div class="row align-items-center">
+                        <!-- Текст -->
+                        <div class="col-lg-6 mb-lg-0">
+                            <h1 class="mb-4 new_phones">The new phones are<br>here take a look.</h1>
+                            <p class="mb-4 iphones" style="color: #4B4B4B;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                            <button class="btn btn-outline-dark rounded-pill px-4 py-2 mb-4 btn_iphone text-center justify-content-center" style="width: 150px;">Explore</button>
+                        </div>
+                        
+                        <!-- Изображение телефона -->
+                        <div class="col-lg-6 position-relative">
+                            <img src="iphoni/image.png" alt="" class="img-fluid" style="max-height: 80%; transform: translateY(4%);">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Правая стрелка -->
+                <button class="btn p-0 border-0 bg-transparent">
+                    <img src="iphoni/pravo.png" alt="" class="phone-arrows">
+                </button>
+                <!-- фрейм -->
+                <img src="iphoni/Frame.png" alt="" 
+                    class="position-absolute bottom-0 end-0 img-fluid"
+                    style="max-height: 90%; z-index: 5;">
+            </div>
+        </div>
+        
+        <!-- Shop our latest offers and categories -->
+
+         <div class="container-fluid my-5">
+            <div class="text-center">
+                <h1 class="mb-3">Shop our latest offers and categories</h1>
+                <p class="mx-auto fw-semibold" style="max-width: 500px; font-size: 12px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, 
+                    aliquam, tempor. Faucibus morbi turpis. Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit.
+                </p>
+            </div>
+                <!-- Колонки -->
+                <div class="container my-5">
+                    <div class="row g-4">
+                        <!-- Левая колонка (ноутбук и часы) -->
+                        <div class="col-lg-6 col-md-12">
+                            <div class="row g-4">
+                                <!-- Ноутбук -->
+                                <div class="col-12">
+                                    <div class="card shadow border-0 d-flex" style="max-width: 640px;">
+                                        <img src="shop/macbook.png" alt="" 
+                                            class="card-img-top object-fit-cover justify-content-start p-4 pt-0 pb-0" 
+                                            style="height: 400px;">
+                                        
+                                        <div class="card-body text-end justify-content-end">
+                                            <p class=" mb-1 small fw-semibold">Laptops</p>
+                                            <h3 class="card-title p-0 sz-font">True Laptop<br>Solution</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Часы -->
+                                <div class="col-12">
+                                    <div class="card shadow border-0" style="max-width: 640px;">
+                                        <div class="row g-0">  <!-- row g-0 убирает отступы между колонками -->
+                                            <!-- Изображение слева -->
+                                            <div class="col-md-5" style="width: 65%;">
+                                                <img src="shop/watch.png" alt="" 
+                                                    class="img-fluid h-100 object-fit-cover"
+                                                    style="max-height: 270px;">
+                                            </div>
+                                            
+                                            <!-- Текст справа -->
+                                            <div class="col-md-7 d-flex align-items-center" style="width: 35%;">
+                                                <div class="card-body text-end p-4">
+                                                    <p class=" mb-1 small fw-semibold">Watch</p>
+                                                    <h3 class="card-title sz-font">
+                                                        Not just<br>stylisht
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Правая колонка (телефон и планшет) -->
+                        <div class="col-lg-6 col-md-12 prav">
+                            <div class="row g-4 h-100">
+                                
+                                <!-- Телефоны -->
+                                <div class="col-lg-6 col-md-6 h-100">
+                                    <div class="card shadow border-0 h-100 flex align-items-center cal" style="max-width: 310px;">
+                                        <!-- Изображение сверху -->
+                                        <div class="d-flex justify-content-center w-100 sz-div" style="height: 70%;">
+                                        <img src="shop/phone.png" alt="" 
+                                            class="align-self-end object-fit-cover sz-img"
+                                            style="height: auto; width: 100%; ">
+                                        </div>
+                                        
+                                        <!-- Текст снизу -->
+                                        <div class="card-body text-center p-3 padd" style="height: 30%;">
+                                            <p class="mb-1 small fw-semibold">Phones</p>
+                                            <h2 class="card-title sz-font">Your day to day<br>life</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Планшет -->
+                                <div class="col-lg-6 col-md-6 h-100 tablet">
+                                    <div class="card shadow border-0 h-100 flex align-items-center cal" style="max-width: 310px; height: 790px;">
+                                        
+                                        <div class="d-flex flex-column justify-content-end text-center pb-5" style="height: 30%;">
+                                            <p class=" mb-1 small fw-semibold">Tablet</p>
+                                            <h3 class="card-title ">Empower your<br>work</h3>
+                                        </div>
+
+                                        <div class="d-flex justify-content-center w-100 sz-div" style="height: 70%;">
+                                        <img src="shop/ipad.png" alt="" 
+                                            class=" object-fit-cover sz-img"
+                                            style="height: auto; width: 100%;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- Save on our most selled items. -->
+        <div class="container-fluid my-5">
+
+            <div class="text-center">
+                <h1 class="mb-3">Save on our most selled items.</h1>
+                <p class="mx-auto fw-semibold" style="max-width: 500px; font-size: 12px;">
+                    Our new Limited Edition Winter Design BESPOKE 4-Door Flex™
+                </p>
+            </div>
+        
+            <div class="container card-group flex">
+                <!-- макбук 13 -->
+                <div class="card border-0">
+                    <div class="d-flex justify-content-center p-5">
+                    <img src="save/pro_13.png" alt=""
+                    class="card-img-top w-70"
+                    style="max-height: 210px;">
+                </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook Pro 13</h5>
+                        <p class="card-text text-muted small">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
+                        <p class="card-text fw-semibold">$ 1,200.00 USD</p>
+                    </div>
+                </div>
+                <!-- часы galaxy -->
+                <div class="card border-0">
+                    <div class="d-flex justify-content-center p-3">
+                        <img src="save/galaxy.png" alt=""
+                        class="card-img-top w-50"
+                        style="max-height: 210px;">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Smart Galaxy Watch 3</h5>
+                        <p class="card-text text-muted small">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                        <p class="card-text fw-semibold">$ 199.00 USD</p>
+                    </div>
+                </div>
+                <!-- макбук м1 -->
+                <div class="card border-0">
+                    <div class="d-flex justify-content-center p-5">
+                    <img src="save/m1.png" alt=""
+                    class="card-img-top w-70"
+                    style="max-height: 210px;">
+                </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook Air M1</h5>
+                        <p class="card-text text-muted small">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                        <p class="card-text fw-semibold">$ 1,009.00 USD</p>
+                    </div>
+                </div>
+                <!-- айпад -->
+                <div class="card border-0">
+                    <div class="d-flex justify-content-center p-4 pb-2">
+                        <img src="save/ipad.png" alt=""
+                        class="card-img-top w-50"
+                        style="max-height: 210px;">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">iPad</h5>
+                        <p class="card-text text-muted small">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                        <p class="card-text fw-semibold">$ 610.00 USD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- See the best around here -->
+        <div class="container-fluid my-5">
+            <div class="text-center">
+                <h1 class="mb-3">See the best around here</h1>
+                <p class="mx-auto fw-semibold" style="max-width: 500px; font-size: 12px;">
+                    Our new Limited Edition Winter Design BESPOKE 4-Door Flex™
+                </p>
+            </div>
+
+            <div class="row justify-content-center g-4 p-5 pt-0 pb-0 text-center">
+                <!-- часы -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="product-card h-100 p-3 pb-1 bg-light rounded-3">
+                        <p class="small mb-0">Smart light bulb pack</p>
+                        <h5 class="mb-3">Latest and greatest</h5>
+                        <button class="btn btn-outline-dark rounded-pill px-4 mb-4 mx-auto" style="width: 150px;">Explore</button>
+                        <div class="mt-auto">
+                            <img src="see/1.png" alt="" class="img-fluid" style="max-height: 250px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- айфоны и макбук -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="product-card h-100 p-3 pb-1 bg-light rounded-3">
+                        <p class="small mb-0">Smart light bulb pack</p>
+                        <h5 class="mb-3">Best selling</h5>
+                        <button class="btn btn-outline-dark rounded-pill px-4 mb-4 mx-auto" style="width: 150px;">Explore</button>
+                        <div class="mt-auto">
+                            <img src="see/2.png" alt="" class="img-fluid" style="max-height: 250px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- айфон и макбук 2 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="product-card h-100 p-3 pb-1 bg-light rounded-3">
+                        <p class="small mb-0">Smart light bulb pack</p>
+                        <h5 class="mb-3">Every product</h5>
+                        <button class="btn btn-outline-dark rounded-pill px-4 mb-4 mx-auto" style="width: 150px;">Explore</button>
+                        <div class="mt-auto">
+                            <img src="see/3.png" alt="" class="img-fluid" style="max-height: 250px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Ideas have a place here -->
+        <div class="container-fluid my-5">
+            <div class="text-center">
+                <h1 class="mb-3">Ideas have a place here</h1>
+                <p class="mx-auto fw-semibold" style="max-width: 500px; font-size: 12px;">
+                    Our new Limited Edition Winter Design BESPOKE 4-Door Flex™
+                </p>
+            </div>
+
+            <div class="ideas_flex">
+                <div>
+                    <img src="ideas/book.png" alt="" 
+                        class="img-fluid px-4 rounded-image">
+                </div>
+                
+                <div class="ideas-content fs-5">
+                    We Make It Easy To Find The Great Design Talent,<br>Easier...<br><br>
+                    Road Design Handbook For The International Road...<br><br>
+                    The Best Kept Secrets About Creative People<br><br>
+                    We Make It Easy To Find The Great Design Talent,<br>Easier...
+                </div>
+            </div>
+            <div class="d-flex justify-content-center pt-5 fs-5">
+                <p>See all</p>
+                <img src="ideas/1.png" alt=""
+                class="img-fluid ps-1 pt-2"
+                style="max-width: 25px; max-height: 23px;">
+            </div>
+        </div>
+
+        <!-- Looking for anything else? -->
+        <div class="container-fluid my-3 d-flex flex-column justify-content-center align-items-center">
+            <div class="text-center mb-3">
+                <h1 class="text-center">Looking for anything else?</h1>
+            </div>
+
+            <!-- поиск -->
+            <div class="row justify-content-center w-50">
+                <div>
+                    <div class="search-container position-relative">
+                        <input type="text" 
+                            class="form-control form-control-lg rounded-pill bg-light" 
+                            placeholder="Search keyword"
+                        >
+                        <button class="btn btn-link " 
+                                type="button">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- кнопки -->
+            <div class="text-center d-flex flex-column justify-content-center pb-4">
+                <div class="py-2 pb-1">
+                    <button class="btn border rounded-pill light">IPhone</button>
+                    <button class="btn border rounded-pill">Charger</button>
+                    <button class="btn border rounded-pill">Gift</button>
+                    <button class="btn border rounded-pill">Google Pixel 3</button>
+                    <button class="btn border rounded-pill">Keyboard</button>
+                </div>
+                <div>
+                    <button class="btn border rounded-pill">13 Pro Max</button>
+                    <button class="btn border rounded-pill">IPhone 12</button>
+                    <button class="btn border rounded-pill">Laptop</button>
+                    <button class="btn border rounded-pill">Mobile</button>
+                </div>
+            </div>
+            <!-- Never miss a thing -->
+            <div class="iphone-block-1 d-flex flex-column align-items-center justify-content-center py-5" style="width: 50%;">
+                <div class="text-center">
+                    <!-- Заголовок и текст -->
+                    <h2 class="mb-3">Never miss a thing</h2>
+                    <p class="mb-4">Sign up for texts to be notified about our best offers on the perfect gifts.</p>
+
+                    <!-- Изображение -->
+                    <div class="mb-4">
+                    <img src="looking/1.png" alt="" 
+                        class="img-fluid"
+                        style="max-width: 233px;">
+                    </div>
+                    
+                    <!-- Форма подписки -->
+                    <div class="position-relative px-1">
+                        <div class="input-group">
+                            <input type="email" 
+                                class="form-control ps-3 py-2 border-1 border-dark rounded-pill" 
+                                placeholder="Your email" 
+                                style="background-color: #dce5e2;">
+                            
+                            <button class="btn btn-dark px-4 rounded-pill position-absolute end-0" 
+                                    type="submit"
+                                    style="height: 100%;">
+                            Sign up
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+
+        <!-- подвал -->
+        <footer class="d-flex flex-column bg-light pt-5">
+            <div class="d-flex flex-wrap align-items-start justify-content-between px-5">
+                <!-- Лого -->
+                <div class="flex-grow-1 pe-4 foot pb-3" style="min-width: 250px; max-width: 300px;">
+                    <img src="navbar/california.png" alt="" 
+                        class="pb-2 img-fluid"
+                        style="max-width: 180px;">
+                    <p class="mb-0">
+                        Sign up for texts to be notified about our best offers on the perfect gifts.
+                    </p>
+                </div>
+
+                    <!-- меню -->
+                    <div class="px-3">
+                        <h4 class="pb-2 fw-bold">All products</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2">Phones</li>
+                            <li class="mb-2">Watch</li>
+                            <li class="mb-2">Tablet</li>
+                            <li>Laptops</li>
+                        </ul>
+                    </div>
+
+                    <div class="px-3">
+                        <h4 class="pb-2 fw-bold">Company</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2">About</li>
+                            <li>Support</li>
+                        </ul>
+                    </div>
+
+                    <div class="px-3">
+                        <h4 class="pb-2 fw-bold">Support</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2">Style Guide</li>
+                            <li class="mb-2">Licensing</li>
+                            <li class="mb-2">Change Log</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+
+                    <div class="ps-3">
+                        <h4 class="pb-2 fw-bold">Follow us</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2">Instagram</li>
+                            <li class="mb-2">Facebook</li>
+                            <li class="mb-2">LinkedIn</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-wrap justify-content-between px-5 my-5">
+                <div class="d-flex pt-5 fs-5">
+                    <p><b>Made by:</b>Azwedo</p>
+                    <img src="ideas/1.png" alt=""
+                    class="img-fluid ps-1 pt-2"
+                    style="max-width: 25px; max-height: 23px;">
+                </div>
+                <div class="d-flex pt-5 fs-5">
+                    <p><b>Powered by:</b>Webflow</p>
+                    <img src="ideas/1.png" alt=""
+                    class="img-fluid ps-1 pt-2"
+                    style="max-width: 25px; max-height: 23px;">
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
